@@ -65,7 +65,7 @@ form button {
   display: block;
   width: 100%;
   padding: 0.75rem;
-  margin-top: 1rem;
+  margin: 1rem 0;
   background-color: #f7e596;
   border: none;
   border-radius: 4px;
