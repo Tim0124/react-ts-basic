@@ -16,7 +16,7 @@ export default function NewGoal({onAddGoal}: NewGoalProps) {
     const enteredGoal = goal.current!.value
     const enteredSummary = summary.current!.value
 
-    if(enteredGoal.length || enteredSummary.length === 0) {
+    if(enteredGoal.length === 0 || enteredSummary.length === 0) {
       setGoalError('Please enter your goal')
       setSummaryError('Please enter your summary')
       setTimeout(()=> {
